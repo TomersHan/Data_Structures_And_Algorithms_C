@@ -36,6 +36,9 @@ default_target: all
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -63,16 +66,16 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\sort_select
+CMAKE_SOURCE_DIR = F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\insert_sort\cmake-build-debug\CMakeFiles\CMakeTmp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\sort_select\cmake-build-debug
+CMAKE_BINARY_DIR = F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\insert_sort\cmake-build-debug\CMakeFiles\CMakeTmp
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/sort_select.dir/all
+all: CMakeFiles/cmTC_bbcb3.dir/all
 
 .PHONY : all
 
@@ -82,44 +85,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/sort_select.dir/clean
+clean: CMakeFiles/cmTC_bbcb3.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sort_select.dir
+# Target rules for target CMakeFiles/cmTC_bbcb3.dir
 
 # All Build rule for target.
-CMakeFiles/sort_select.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort_select.dir\build.make CMakeFiles/sort_select.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort_select.dir\build.make CMakeFiles/sort_select.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\sort_select\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target sort_select"
-.PHONY : CMakeFiles/sort_select.dir/all
+CMakeFiles/cmTC_bbcb3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_bbcb3.dir\build.make CMakeFiles/cmTC_bbcb3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_bbcb3.dir\build.make CMakeFiles/cmTC_bbcb3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\insert_sort\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1,2 "Built target cmTC_bbcb3"
+.PHONY : CMakeFiles/cmTC_bbcb3.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sort_select.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\sort_select\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sort_select.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\sort_select\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/sort_select.dir/rule
+CMakeFiles/cmTC_bbcb3.dir/rule:
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\insert_sort\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/cmTC_bbcb3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\insert_sort\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles 0
+.PHONY : CMakeFiles/cmTC_bbcb3.dir/rule
 
 # Convenience name for target.
-sort_select: CMakeFiles/sort_select.dir/rule
+cmTC_bbcb3: CMakeFiles/cmTC_bbcb3.dir/rule
 
-.PHONY : sort_select
+.PHONY : cmTC_bbcb3
 
 # clean rule for target.
-CMakeFiles/sort_select.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort_select.dir\build.make CMakeFiles/sort_select.dir/clean
-.PHONY : CMakeFiles/sort_select.dir/clean
+CMakeFiles/cmTC_bbcb3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_bbcb3.dir\build.make CMakeFiles/cmTC_bbcb3.dir/clean
+.PHONY : CMakeFiles/cmTC_bbcb3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
-
-# Special rule to run CMake to check the build system integrity.
-# No rule that depends on this can have commands that come from listfiles
-# because they might be regenerated.
-cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-.PHONY : cmake_check_build_system
 

@@ -1,0 +1,30 @@
+The system is: Windows - 10.0.17763 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/insert_sort/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/insert_sort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_e72aa/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e72aa.dir\build.make CMakeFiles/cmTC_e72aa.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/insert_sort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e72aa.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_e72aa.dir\testCCompiler.c.obj   -c F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\insert_sort\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_e72aa.exe
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e72aa.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e72aa.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_e72aa.dir/objects.a @CMakeFiles\cmTC_e72aa.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_e72aa.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e72aa.exe -Wl,--out-implib,libcmTC_e72aa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e72aa.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/insert_sort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+

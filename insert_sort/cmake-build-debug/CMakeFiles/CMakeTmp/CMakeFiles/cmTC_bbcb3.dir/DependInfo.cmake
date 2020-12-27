@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/sort_select/main.c" "F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/sort_select/cmake-build-debug/CMakeFiles/sort_select.dir/main.c.obj"
+  "C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeCCompilerABI.c" "F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/insert_sort/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_bbcb3.dir/CMakeCCompilerABI.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

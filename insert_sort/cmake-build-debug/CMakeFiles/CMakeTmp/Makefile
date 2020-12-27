@@ -40,6 +40,9 @@ default_target: all
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -67,17 +70,17 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\sort_select
+CMAKE_SOURCE_DIR = F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\insert_sort\cmake-build-debug\CMakeFiles\CMakeTmp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\sort_select\cmake-build-debug
+CMAKE_BINARY_DIR = F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\insert_sort\cmake-build-debug\CMakeFiles\CMakeTmp
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	@echo No interactive CMake dialog available...
 	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
@@ -88,7 +91,7 @@ edit_cache/fast: edit_cache
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	@echo Running CMake to regenerate build system...
 	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
@@ -98,10 +101,10 @@ rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
 # The main all target
-all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\sort_select\cmake-build-debug\CMakeFiles F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\sort_select\cmake-build-debug\CMakeFiles\progress.marks
+all:
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\insert_sort\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\insert_sort\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\sort_select\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\insert_sort\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -124,74 +127,61 @@ preinstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall/fast
 
-# clear depends
-depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-.PHONY : depend
-
 #=============================================================================
-# Target rules for targets named sort_select
+# Target rules for targets named cmTC_bbcb3
 
 # Build rule for target.
-sort_select: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sort_select
-.PHONY : sort_select
+cmTC_bbcb3:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmTC_bbcb3
+.PHONY : cmTC_bbcb3
 
 # fast build rule for target.
-sort_select/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort_select.dir\build.make CMakeFiles/sort_select.dir/build
-.PHONY : sort_select/fast
+cmTC_bbcb3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_bbcb3.dir\build.make CMakeFiles/cmTC_bbcb3.dir/build
+.PHONY : cmTC_bbcb3/fast
 
-main.obj: main.c.obj
+CMakeCCompilerABI.obj: CMakeCCompilerABI.c.obj
 
-.PHONY : main.obj
+.PHONY : CMakeCCompilerABI.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort_select.dir\build.make CMakeFiles/sort_select.dir/main.c.obj
-.PHONY : main.c.obj
+CMakeCCompilerABI.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_bbcb3.dir\build.make CMakeFiles/cmTC_bbcb3.dir/CMakeCCompilerABI.c.obj
+.PHONY : CMakeCCompilerABI.c.obj
 
-main.i: main.c.i
+CMakeCCompilerABI.i: CMakeCCompilerABI.c.i
 
-.PHONY : main.i
+.PHONY : CMakeCCompilerABI.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort_select.dir\build.make CMakeFiles/sort_select.dir/main.c.i
-.PHONY : main.c.i
+CMakeCCompilerABI.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_bbcb3.dir\build.make CMakeFiles/cmTC_bbcb3.dir/CMakeCCompilerABI.c.i
+.PHONY : CMakeCCompilerABI.c.i
 
-main.s: main.c.s
+CMakeCCompilerABI.s: CMakeCCompilerABI.c.s
 
-.PHONY : main.s
+.PHONY : CMakeCCompilerABI.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort_select.dir\build.make CMakeFiles/sort_select.dir/main.c.s
-.PHONY : main.c.s
+CMakeCCompilerABI.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_bbcb3.dir\build.make CMakeFiles/cmTC_bbcb3.dir/CMakeCCompilerABI.c.s
+.PHONY : CMakeCCompilerABI.c.s
 
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
-	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... sort_select
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... cmTC_bbcb3
+	@echo ... CMakeCCompilerABI.obj
+	@echo ... CMakeCCompilerABI.i
+	@echo ... CMakeCCompilerABI.s
 .PHONY : help
 
 
 
 #=============================================================================
 # Special targets to cleanup operation of make.
-
-# Special rule to run CMake to check the build system integrity.
-# No rule that depends on this can have commands that come from listfiles
-# because they might be regenerated.
-cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-.PHONY : cmake_check_build_system
 
