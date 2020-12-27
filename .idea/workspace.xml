@@ -8,6 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3028a69a-a378-4a7b-abfc-f7838faf415c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/Data_Structures_And_Algorithms_C.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_list/cmake-build-debug/CMakeFiles/linear_list.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/linear_list/cmake-build-debug/CMakeFiles/linear_list.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_list/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/linear_list/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_list/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/linear_list/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quick_sort/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/quick_sort/.idea/quick_sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quick_sort/.idea/quick_sort.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quick_sort/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/quick_sort/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
