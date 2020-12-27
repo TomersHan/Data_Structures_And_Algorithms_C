@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\insert_sort.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\insert_sort.dir/objects.a @CMakeFiles\insert_sort.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\insert_sort.dir/objects.a -Wl,--no-whole-archive  -o insert_sort.exe -Wl,--out-implib,libinsert_sort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\insert_sort.dir\linklibs.rsp

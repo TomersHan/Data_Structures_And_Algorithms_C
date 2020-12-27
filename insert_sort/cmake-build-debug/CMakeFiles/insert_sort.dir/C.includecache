@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/insert_sort/main.c
+stdio.h
+-
+time.h
+F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/insert_sort/time.h
+
