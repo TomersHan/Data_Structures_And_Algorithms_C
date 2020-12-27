@@ -1,0 +1,3 @@
+C:/Users/wy220/CLionProjects/C_Data_Projects/point_test/cmake-build-debug/CMakeFiles/point_test.dir
+C:/Users/wy220/CLionProjects/C_Data_Projects/point_test/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/wy220/CLionProjects/C_Data_Projects/point_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
