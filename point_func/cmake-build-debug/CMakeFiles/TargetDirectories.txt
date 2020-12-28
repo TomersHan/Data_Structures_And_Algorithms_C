@@ -1,0 +1,3 @@
+F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/point_func/cmake-build-debug/CMakeFiles/point_func.dir
+F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/point_func/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/point_func/cmake-build-debug/CMakeFiles/rebuild_cache.dir

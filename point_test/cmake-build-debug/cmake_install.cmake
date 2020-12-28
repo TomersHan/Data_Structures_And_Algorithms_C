@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/wy220/CLionProjects/C_Data_Projects/point_test
+# Install script for directory: F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/point_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/wy220/CLionProjects/C_Data_Projects/point_test/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/Data_Structrues_And_Algorithms_C/Data_Structures_And_Algorithms_C/point_test/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

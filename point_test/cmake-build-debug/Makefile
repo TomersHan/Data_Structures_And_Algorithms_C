@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wy220\CLionProjects\C_Data_Projects\point_test
+CMAKE_SOURCE_DIR = F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\point_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wy220\CLionProjects\C_Data_Projects\point_test\cmake-build-debug
+CMAKE_BINARY_DIR = F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\point_test\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wy220\CLionProjects\C_Data_Projects\point_test\cmake-build-debug\CMakeFiles C:\Users\wy220\CLionProjects\C_Data_Projects\point_test\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\point_test\cmake-build-debug\CMakeFiles F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\point_test\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wy220\CLionProjects\C_Data_Projects\point_test\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Data_Structrues_And_Algorithms_C\Data_Structures_And_Algorithms_C\point_test\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
